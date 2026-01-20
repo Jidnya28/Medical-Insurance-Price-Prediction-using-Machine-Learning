@@ -26,6 +26,8 @@ Trained Linear Regression model
 Evaluated using R² score and cross-validation
 (I used 5-fold cross-validation using cross_val_score. The dataset was divided into 5 folds, and the model was trained on 4 folds and tested on 1 fold iteratively. I took the average R² score to evaluate model performance. This helped me ensure the model generalized well and avoided overfitting)
 
+(“I used R² for model comparison because it explains variance and helps detect overfitting. RMSE can definitely be used as a complementary metric to understand error magnitude in real currency terms.”)(“In a production scenario, I would report both R² and RMSE—R² for model performance and RMSE for business impact.”)
+
 📌 Results & Observation
 
 Linear Regression gave moderate accuracy
