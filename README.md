@@ -61,6 +61,8 @@ Evaluated using R² score and cross-validation
 
 Tuned hyperparameters using GridSearchCV
 
+(“I used GridSearchCV to tune the Random Forest model by optimizing the number of trees. GridSearchCV evaluates all parameter combinations using 5-fold cross-validation and selects the best model based on R² score. Since the parameter space was small, GridSearch was more reliable. For larger parameter spaces, I would use RandomizedSearchCV.”)
+
 Identified important features
 
 <img width="831" height="316" alt="image" src="https://github.com/user-attachments/assets/5dfd6a48-33f7-4138-b8f6-b993d3210b70" />
