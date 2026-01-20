@@ -24,6 +24,7 @@ Split data into train and test sets
 Trained Linear Regression model
 
 Evaluated using R² score and cross-validation
+(I used 5-fold cross-validation using cross_val_score. The dataset was divided into 5 folds, and the model was trained on 4 folds and tested on 1 fold iteratively. I took the average R² score to evaluate model performance. This helped me ensure the model generalized well and avoided overfitting)
 
 📌 Results & Observation
 
